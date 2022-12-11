@@ -1,0 +1,37 @@
+[
+    {
+      "id" : 1,
+      "name" : "Comfy-share",
+      "des" :  "An used furniture buying and selling web application which is made of MERN stack using HTML & Tailwind css. This web application have different panel for users & Admin.  2 different kind of user can loged in. One is Seller and another is Buyer. Seller can add products from dashboard and Buyer able to buy the product and from order history s(he) can complete the payment. Payment method enabled using Stripe !",
+      "tec" : "React .Firebase .nodejs .Mongodb",
+      "allTech" : ["React", "express Js","stripe","tailwind Css","JSX","vercel","firebase","JWT","HTML","reacts different library & packages"],
+      "img" : "https://i.ibb.co/1f29zhs/share-comfy.png",
+      "moreDetails": "where u will find out 2types of login system in here which include (email & passowrd login system and Google Login system). Among with that i have utilized the private routing & admin routing too and the purpose of the private routing is to, you can't give reviews or edit review or delete review without getting signup and admin you controls the users.",
+      "KeyPoint" : ["Project done with MERN stack with Firebase Authentication", "Three types of user intregated. 1. buyer 2.seller and 3.Admin","seller can upload, delete s(he)'s product and the seller can also advertise her/his project", "Buyer can choose a product can see the product list and last s(he) can do payment through strip","Admin can control all the user and can able to see user's info", "user can login and signup (2 different types of sign/registration method added by using firebase)", "two types of option in registertration page to sign up as a buyer or seller"],
+      "images": ["https://i.ibb.co/CvKQ38D/home.png","https://i.ibb.co/zmj2h22/registration.png","https://i.ibb.co/J3Lvy3R/order-Product.png","https://i.ibb.co/Kh8LMYf/Advertise.png","https://i.ibb.co/y6L5T8Z/addproduct.png"],
+      "liveLInk": "https://share-comfy.web.app",
+      "clientRipo": "https://github.com/DiptoDey321/share-comfy-client",
+      "serverRipo": "https://github.com/DiptoDey321/Codify-server"
+
+    },
+    {
+      "id" : 2,
+      "name" : "Royal-foodies",
+      "des" : "An service reviewing website. Using MERN stack i have complete this site. The main feature of the website is the logged in user can give review of a particular items and also s(he) can edit the given review! Also user can able to add service from dashboard. used Firebase for user-authentication system",
+      "tec" : "React .Firebase .nodejs .Mongodb",
+      "img" : " https://i.ibb.co/p1zMDgs/Royal-Foodies.png",
+      "allTech" : ["React", "express Js","stripe","tailwind Css","JSX","vercel","firebase","JWT","HTML","reacts different library & packages"],
+      "moreDetails":"this project is on food service based (cloud kitchen). Where you can see different kind of food related service .where you can also get some post over blogs in resent. All you can see other review on that particular serivices and also you can give your review too I have utilized firebase in here, where u will find out 2types of login system in here which include (email & passowrd login system and Google Login system). Among with that i have utilized the private routing too and the purpose of the private routing is to, you can't give reviews or edit review or delete review without getting signup.",
+      "KeyPoint":["user can login and signup (2 different types of sign/registration method added by using firebase)","user can give review on the services"," user can edit or delete his/her own review","user can add services","Server intregated Web application","private Routing enable( cannt give review or add service without login)"],
+      "liveLInk": "https://royal-foodies.web.app/",
+      "clientRipo": "https://github.com/DiptoDey321/royal-foodies-client",
+      "serverRipo": "https://github.com/DiptoDey321/royal-foodies-server"
+    },
+    {
+      "id" : 3,
+      "name" : "Codify",
+      "des" : "Codify is a learnging web application where the user can see course depending on catagory. Also s(he) add or buy any course if s(he) is logged in. If not then it will redirected to the login page. User Also can able to download the course information in pdf file from the course-info",
+      "tec" : "React .Firebase. Nodejs. Express",
+      "img" : "https://i.ibb.co/3NZqT5Q/codify.png"
+    }
+  ]

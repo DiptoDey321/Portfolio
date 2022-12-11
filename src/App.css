@@ -1,0 +1,69 @@
+.header-shadow{
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.banner-content{
+  height: calc( 100% - 220px);
+}
+.animate-charcter{
+  background: -webkit-linear-gradient(135deg,#231557,#44107a, #ff1361,#fff800);
+  background: linear-gradient(-45deg,#231557,#44107a, #ff1361,#fff800);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 400% 400%;
+  -webkit-animation: gradient 5s ease infinite;
+  animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+.email{
+  transform: rotate(90deg);
+  font-family: 'Martian Mono', monospace;
+}
+
+.about-me h2:after,.work-history h2:after{
+  content: '';
+  width: 200px;
+  height: 2px;
+  margin-top: 10px;
+  background-color: gray;
+}
+
+.btn-active{
+  @apply bg-[rgb(114,89,204)]  text-white font-semibold;
+}
+
+.project{
+  position: relative;
+}
+.project .technology{
+  transform: rotate(270deg);
+  font-family: 'Martian Mono', monospace;
+  position: absolute;
+  color: black;
+  left: -81px;
+  top: 50%;
+}
+.project-number{
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: #d6d6d6;
+}
+
+.from-body h2{
+  font-family: 'Martian Mono', monospace;
+}
+.from-body form label {
+  font-family: 'Martian Mono', monospace;
+  font-size: 14px;
+}

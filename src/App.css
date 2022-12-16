@@ -40,7 +40,7 @@
 }
 
 .btn-active{
-  @apply bg-[rgb(114,89,204)]  text-white font-semibold;
+  @apply bg-[rgb(16,185,129)] rounded-3xl text-white font-semibold;
 }
 
 .project{
@@ -66,4 +66,31 @@
 .from-body form label {
   font-family: 'Martian Mono', monospace;
   font-size: 14px;
+}
+.ui-functionality .ui-box:nth-child(2n){
+  align-self: flex-end;
+  flex-direction: row-reverse;
+}
+.ui-functionality .ui-box:nth-child(2n+1){
+  align-self: flex-start;
+}
+
+.scroll-to-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 640px) {
+  .ui-functionality .ui-box:nth-child(2n){
+    align-self: flex-start;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 768px) {
+  .ui-functionality .ui-box:nth-child(2n){
+    align-self: flex-start;
+    flex-direction: column;
+  }
 }

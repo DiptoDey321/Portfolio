@@ -1,6 +1,7 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
 import Layout from './Layout/Layout';
+import Blog from './Pages/Blog';
 import Contact from './Pages/Contact';
 import Home from './Pages/Home';
 import ProjectDetails from './Pages/ProjectDetails';
@@ -18,6 +19,10 @@ function App() {
         {
           path : '/contact',
           element: <Contact></Contact>
+        },
+        {
+          path : '/blog',
+          element: <Blog></Blog>
         },
         {
           path : '/project/:id',

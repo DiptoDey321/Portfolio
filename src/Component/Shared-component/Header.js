@@ -19,12 +19,14 @@ function Header({openNavbar}) {
     <header id="header-nav" className="bg-[#ffffff] top-0 z-30 rounded-[10px]">
         <nav className="rounded-[10px]">
             <div className='rounded-[10px]'>
-              <div className="header-shadow rounded-[10px] shadow-2xl h-24 flex items-center justify-between px-10">
+              <div className="header-shadow rounded-[10px] shadow-2xl h-14 sm:h-24 flex items-center justify-between px-2 sm:px-10">
                 <div className="logo h-full flex items-center">
-                    <img className='h-12' src="https://i.ibb.co/jVh8NgW/Dipto-Dey.png" alt="" srcSet="" />
+                    <Link to='/'>
+                      <img className='h-8 sm:h-12' src="https://i.ibb.co/jVh8NgW/Dipto-Dey.png" alt="" srcSet="" />
+                    </Link>
                 </div>
                 <div className="menu flex gap-x-2 items-center font-bold text-black/80">
-                  <span>MENU</span>
+                  <span className="text-sm sm:text-base">MENU</span>
                   <button onClick={handleMenu}>
                     <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M24.9999 11H10.9999V12H24.9999V11Z" stroke="black" strokeLinecap="round" strokeLinejoin="round"/>
@@ -39,24 +41,24 @@ function Header({openNavbar}) {
                 <div className="flex h-full">
                     <div className={`${showMenu ? 'top-0 opacity-100' : '-top-1/2 opacity-0'} left-half w-full sm:w-1/2 flex items-center justify-center sm:border-r transition-all duration-300 ease-in-out relative `}>
                         <div id="nav-option">
-                                <ul className="text-[32px] md:text-[42px] lg:text-[48px] xl:text-[40px] 2xl:[64px] leading-[150%] font-semibold text-black/70 flex flex-col gap-y-[24px] sm:gap-y-[38px] md:gap-y-[48px] lg:gap-y-[64px] text-center sm:text-left">
+                                <ul className="text-[32px] sm:text-[32px] md:text-[36px] lg:text-[48px] xl:text-[40px] 2xl:[64px] leading-[150%] font-semibold text-black/70 flex flex-col gap-y-[24px] sm:gap-y-[38px] md:gap-y-[48px] lg:gap-y-[64px] text-center sm:text-left">
                                     <li onClick={closeMenu}><Link to='/'>Home</Link></li>
                                     <li onClick={closeMenu}><Link to='/contact'>Contact</Link></li>
                                     <li onClick={closeMenu}><Link to='/blog'>Recent Blog</Link></li>
                                 </ul>
                         </div>
                     </div>
-                    <div className={`${showMenu?'top-0 opacity-100':'top-1/2 opacity-0'}right-half w-full sm:w-1/2 sm:flex items-center justify-center transition-all duration-300 ease-in-out relative `}>
+                    <div className={`${showMenu?'top-0 opacity-100':'top-1/2 opacity-0'}right-half w-full sm:w-1/2 hidden sm:flex items-center justify-center transition-all duration-300 ease-in-out relative `}>
                         <div id="nav-description" className="sm:full md:w-[598px] px-5">
                             <div className="flex items-center justify-center">
-                              <img className="md:w-[80%] lg:w-[80%] xl:w-[80%] 2xl:w-[70%]" src="https://i.ibb.co/7yVy1r8/a2.png" alt=""/>
+                              <img className="sm:w-[50%] md:w-[60%] lg:w-[60%] xl:w-[70%] 2xl:w-[70%]" src="https://i.ibb.co/7yVy1r8/a2.png" alt=""/>
                             </div>
-                            <p className="flex gap-x-2 text-sm mt-5">
-                                <span className="text-primary">#Dipto_Dey</span>
-                                <span className="text-text">|</span>
+                            <p className="flex sm:flex-col md:flex-row gap-x-2 text-sm mt-5">
+                                <span className="text-primary font-semibold">#Dipto_Dey</span>
+                                <span className="sm:hidden md:block text-text">|</span>
                                 <span className="text-text-60">Modern Front End Developer</span>
                             </p>
-                            <h4 className="sm:text-[20px] md:text-[22px] lg:text-[26px] 2xl:text-[28px] font-bold mt-5 md:mt-4 lg:mt-5 text-text">Nulla facilisi. Pellentes dui ligula, varius non dignissim id, elementum in sem. Suspendisse quis risus tincidunt.</h4>
+                            <h4 className="sm:hidden md:block md:text-[16px] lg:text-[20px] 2xl:text-[28px] md:text-semibold lg:font-bold mt-5 md:mt-4 lg:mt-5 text-black/70 md:w-[80%]">Hello, there.. i m Dipto! A front end developer having vast experience in the field of frontend Developement</h4>
                         </div>
                     </div>
                 </div>

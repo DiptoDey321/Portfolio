@@ -1,4 +1,5 @@
 import React from 'react'
+import ScrollToTop from 'react-scroll-to-top'
 import AboutMe from '../Component/Home/AboutMe'
 import Banner from '../Component/Home/Banner'
 import Projects from '../Component/Home/Projects'
@@ -14,6 +15,7 @@ function Home() {
           <AboutMe></AboutMe>
           <Projects></Projects>
           <Footer></Footer>
+          <ScrollToTop smooth />
        </div>
     </div>
   )

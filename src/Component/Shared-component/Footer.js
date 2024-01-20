@@ -8,7 +8,7 @@ function Footer() {
             <p className='w-full sm:w-1/4 md:text-xl lg:text-2xl font-semibold text-center'>Start a project</p>
             <p className='w-full sm:w-2/4 text-center px-5 font-normal sm:text-xs md:text-base'>Interested in working together? We should queue up a time to chat. I’ll buy the coffee.</p>
            <div className="w-full sm:w-1/4 flex justify-center">
-                <Link to='contact'><button className='text-primary border-2 rounded-md border-primary px-5 py-2 text-xs md:text-base' >Let's do this</button></Link>
+                <Link to='/contact'><button className='text-primary border-2 rounded-md border-primary px-5 py-2 text-xs md:text-base' >Let's do this</button></Link>
            </div>
         </div>
         <div id='contact' className="text-white text-center md:w-[800px] mx-auto">

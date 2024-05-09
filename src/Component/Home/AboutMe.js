@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom'
 import WorkingHistory from './WorkingHistory'
 
 
-// https://i.ibb.co/XxNqpXg/a3.png
-// https://i.ibb.co/7yVy1r8/a2.png
-// https://i.ibb.co/H7xZTHN/a1.png
+// 
+
+// 
 
 
 const expertises =[
@@ -23,7 +23,7 @@ const expertises =[
     },
     {
         courseName : "TypeScript",
-        courseImg : 'https://i.ibb.co/MZ8TSS3/js.png'
+        courseImg : 'https://i.ibb.co/5RpfV7j/typescript.png'
     },
     {
         courseName : "Node.js",
@@ -32,6 +32,10 @@ const expertises =[
     {
         courseName : "MongoDB",
         courseImg : 'https://i.ibb.co/hLwpmPm/mongodb.png'
+    },
+    {
+        courseName : "Mongoose",
+        courseImg : 'https://i.ibb.co/ZdPV9Qd/mongoose.png'
     },
     {
         courseName : "Github",
@@ -52,6 +56,10 @@ const expertises =[
     {
         courseName : "Framer Motion",
         courseImg : 'https://i.ibb.co/3d5YkX7/framer-motion.png'
+    },
+    {
+        courseName : "StoryBook",
+        courseImg : 'https://i.ibb.co/0Jgk3RT/storybook.png'
     },
     {
         courseName : "Tailwind",

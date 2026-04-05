@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function Projects() {
   const [projects , setProjects] = useState([]);
@@ -8,8 +8,6 @@ function Projects() {
     .then(res => res.json())
     .then(data => setProjects(data))
   },[])
-
-  console.log(projects);
 
   return (
     <div className='px-[5%] sm:px-[10%] xl:px-[15%] pt-10 sm:pt-20 pb-24'>

@@ -1,6 +1,48 @@
 [
-    {
+   {
       "id" : 1,
+      "name" : "Eventa",
+      "des" :  "Eventa an event management and ticketing web application built with Next.js, TypeScript, Redux and Ant Design. This platform provides different panels for Event Organizers and Attendees. Organizers can create, manage, and advertise events, track attendees, and control ticket availability in real-time. Attendees can browse events, purchase tickets, and view their booking history. Secure payment integration (e.g., AmarPay, bKash) ensures smooth and reliable transactions.Includes features like RSVP management, guest onboarding, and real-time updates, ensuring a seamless experience for both sides.",
+      "tec" : "NextJS .Reduxtookit .NodeJs, Axios",
+      "allTech" : ["React", "express Js","stripe","tailwind Css","JSX","vercel","firebase","JWT","HTML","reacts different library & packages"],
+      "img" : "https://imgur.com/3ZVszRE.png",
+      "img1" : "https://imgur.com/hGr3gXr.png",
+      "moreDetails": "where u will find out 2types of login system in here which include (email & passowrd login system and Google Login system). Among with that i have utilized the private routing & admin routing too and the purpose of the private routing is to, you can't give reviews or edit review or delete review without getting signup and admin you controls the users.",
+      "KeyPoint" : ["Project done with MERN stack with Firebase Authentication", "Three types of user intregated. 1. buyer 2.seller and 3.Admin","seller can upload, delete s(he)'s furniture and the seller can also advertise her/his project", "Buyer can choose a furniture can see the furniture list and last s(he) can do payment through strip","Admin can control all the user and can able to see user's info", "user can login and signup (2 different types of sign/registration method added by using firebase)", "two types of option in registertration page to sign up as a buyer or seller"],
+      "imgDes" : [
+        {
+          "featureTitle":"Eventa Explore Events",
+          "featureImg":"https://imgur.com/CsWpeFt.png",
+          "featureDes" : "The Explore page immerses users in a curated showcase of event categories and platform capabilities. Users can browse featured areas like Entertainment, Professional, Cultural, Sports & Recreation, Fundraising & Charity, and Socials & Parties, each accompanied by an 'Explore Events' call-to-action—making discovery intuitive and visually appealing"
+        },
+        {
+          "featureTitle":"Event Details Page",
+          "featureImg":"https://imgur.com/G0ufVjt.png",
+          "featureDes" : "The Event Details page provides attendees with all the essential information about a specific event in a clear and engaging way. It displays the event name, date, time, and venue, supported by an integrated interactive map so users can easily locate the event. A detailed event description offers context and highlights what participants can expect, while the available ticket information is shown alongside secure booking options."
+        },
+        {
+          "featureTitle":"Eventa add events with tickets",
+          "featureImg":"https://imgur.com/yxKPVzv.png",
+          "featureDes" : "The Create Event page is designed to make event setup simple and efficient for organizers. It allows users to add a new event by providing key details such as the event name, description, date and time, venue location, and category. With an intuitive form layout and interactive fields, organizers can accurately define all aspects of their event, ensuring clarity for potential attendees."
+        },
+        {
+          "featureTitle":"Eventa Add tickets to the events",
+          "featureImg":"https://imgur.com/XikieLe.png",
+          "featureDes" : "The Add Tickets page allows event organizers to configure and manage ticketing options for their events. Organizers can define ticket names, pricing, available quantity, sales period, and validity timeframe, ensuring flexibility for different event types. This feature provides attendees with transparent ticket information while giving organizers full control over how and when tickets are sold."
+        },
+        {
+          "featureTitle":"Eventa all details about person",
+          "featureImg":"https://imgur.com/IB7tSWW.png",
+          "featureDes" : "The User Dashboard provides event organizers with a comprehensive overview of their activities and performance. It displays the user’s name, total events, approved, pending, and rejected events, as well as total tickets sold and orders. The dashboard also includes financial reports and visual analytics, giving users clear insights into sales trends, attendee engagement, and overall event performance all in one intuitive interface for efficient management and decision-making."
+        }
+      ],
+      "liveLInk": "https://share-comfy.web.app",
+      "clientRipo": "https://github.com/DiptoDey321/share-comfy-client",
+      "serverRipo": "https://github.com/DiptoDey321/Codify-server"
+
+    },
+    {
+      "id" : 2,
       "name" : "Comfy-share",
       "des" :  "An used furniture buying and selling web application which is made of MERN stack using HTML & Tailwind css. This web application have different panel for users & Admin.  2 different kind of user can loged in. One is Seller and another is Buyer. Seller can add furnitures from dashboard and Buyer able to buy the furniture and from order history s(he) can complete the payment. Payment method enabled using Stripe !",
       "tec" : "React .Firebase .nodejs .Mongodb",
@@ -37,7 +79,7 @@
 
     },
     {
-      "id" : 2,
+      "id" : 3,
       "name" : "Royal-foodies",
       "des" : "An service reviewing website. Using MERN stack i have complete this site. The main feature of the website is the logged in user can give review of a particular items and also s(he) can edit the given review! Also user can able to add service from dashboard. used Firebase for user-authentication system",
       "tec" : "React .Firebase .nodejs .Mongodb",
@@ -73,7 +115,7 @@
       "serverRipo": "https://github.com/DiptoDey321/royal-foodies-server"
     },
     {
-      "id" : 3,
+      "id" : 4,
       "name" : "Codify",
       "des" : "Codify is a learnging web application where the user can see course depending on catagory. Also s(he) add or buy any course if s(he) is logged in. If not then it will redirected to the login page. User Also can able to download the course information in pdf file from the course-info",
       "tec" : "React .Firebase. Nodejs. Express",
@@ -99,7 +141,7 @@
           "featureDes" : "Here, You can find the course details of the particular course. You will find the outline, course totall duration and can download outline via PDF! if you are a logged in user the can get premium access"
         },
         {
-          "featureTitle":"Codify Add Product",
+          "featureTitle":"Codify Blog",
           "featureImg":"https://i.ibb.co/wRyJbVn/share-comfy-1.png",
           "featureDes" : "On this Section you can find the most recent blog which is written by the users of codify."
         }

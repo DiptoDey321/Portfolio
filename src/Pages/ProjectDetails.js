@@ -1,5 +1,4 @@
-import { list } from "postcss";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Footer from "../Component/Shared-component/Footer";
 import Header from "../Component/Shared-component/Header";

@@ -40,14 +40,14 @@ const education = [
   {
     degree: "M.Sc. Software Engineering & Management",
     school: "University of Gothenburg, Sweden",
-    year: "2023 — Present",
+    year: "2025 — Present",
     current: true,
     icon: "🎓",
   },
   {
     degree: "B.Sc. Computer Science & Engineering",
     school: "United International University",
-    year: "2018 — 2022",
+    year: "2017 — 2022",
     current: false,
     icon: "🏛️",
   },
